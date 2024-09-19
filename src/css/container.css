@@ -1,0 +1,44 @@
+.container {
+  max-width: 1024px;
+  margin-inline: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding-block: 5rem 1rem;
+}
+
+.section__title {
+  font-family: var(--title-font);
+  font-size: var(--font-xl);
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: aliceblue;
+  stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #401c10;
+  stroke: #401c10;
+  text-shadow: 6px 6px 0px #9f7060;
+}
+
+.section__subtitle {
+  display: block;
+  font-family: var(--subtitle-font);
+  font-size: var(--font-lg);
+  font-weight: var(--font-semi-bold);
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.section__title,
+.section__subtitle {
+  text-align: center;
+}
+
+.main {
+  overflow: hidden;
+}
